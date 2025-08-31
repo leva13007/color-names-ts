@@ -1,0 +1,12 @@
+{
+  "name": "color-names-ts",
+  "version": "0.0.1",
+  "description": " WIP modern color name utility (TS/ESM)",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "author": "Oleh Levchenko",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
