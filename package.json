@@ -1,12 +1,55 @@
 {
   "name": "color-names-ts",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": " WIP modern color name utility (TS/ESM)",
-  "main": "index.js",
-  "types": "index.d.ts",
   "author": "Oleh Levchenko",
   "license": "MIT",
   "engines": {
-    "node": ">=18"
-  }
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest watch",
+    "lint": "eslint . --ext .ts",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/leva13007/color-names-ts#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leva13007/color-names-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leva13007/color-names-ts/issues"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://buymeacoffee.com/zloyleva"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.34.0",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/node": "^22.15.29",
+    "eslint": "^9.34.0",
+    "globals": "^16.3.0",
+    "jiti": "^2.5.1",
+    "rollup": "^4.41.1",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.41.0",
+    "vitest": "^3.2.0"
+  },
+  "type": "module"
 }
