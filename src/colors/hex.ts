@@ -1,4 +1,4 @@
-import { ColorName } from "./colorsKeys";
+import { ColorName } from "./keys";
 
 export const colorsHex: Record<ColorName, string> = {
   aliceblue: '#f0f8ff',

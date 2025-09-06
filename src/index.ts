@@ -1,3 +1,2 @@
-export * from './colorsKeys';
-export * from './colorsHex';
-export * from './colorsRgb';
+export * from './colors';
+export type { ColorName } from './colors/keys';
