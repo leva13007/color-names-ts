@@ -1,4 +1,4 @@
-import { ColorName } from "./colorsKeys";
+import { ColorName } from "./keys";
 
 export const colorsRgb: Record<ColorName, [number, number, number]> = {
   aliceblue: [240, 248, 255],

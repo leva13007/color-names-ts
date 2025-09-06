@@ -1,5 +1,11 @@
 # 🎨 color-names-ts
 
+![CI](https://github.com/leva13007/color-names-ts/actions/workflows/ci.yml/badge.svg)
+![Release](https://github.com/leva13007/color-names-ts/actions/workflows/release.yml/badge.svg)
+[![npm version](https://badge.fury.io/js/color-names-ts.svg)](https://badge.fury.io/js/color-names-ts)
+[![codecov](https://codecov.io/gh/leva13007/color-names-ts/branch/main/graph/badge.svg?token=TOKEN)](https://codecov.io/gh/leva13007/color-names-ts)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A modern, ESM-friendly, **TypeScript-native** alternative to [`color-name`](https://www.npmjs.com/package/color-name).
 
 > Includes all 147 CSS Level 4 named colors with both HEX and RGB representations, fully typed and tree-shakable.
